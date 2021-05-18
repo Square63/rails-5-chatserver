@@ -89,7 +89,9 @@ GEM
     mime-types (3.0)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0221)
-    mimemagic (0.3.1)
+    mimemagic (0.4.3)
+      nokogiri (~> 1)
+      rake
     mini_magick (4.5.1)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
@@ -98,7 +100,7 @@ GEM
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
-    puma (3.12.4)
+    puma (3.12.6)
     rack (2.0.0.rc1)
       json
     rack-test (0.6.3)
